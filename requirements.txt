@@ -1,0 +1,1 @@
+# No dependencies — uses stdlib only (argparse, json, pathlib, re, typing)

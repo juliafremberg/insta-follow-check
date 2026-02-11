@@ -1,0 +1,57 @@
+=== Sample output when running followcheck.py ===
+
+$ python followcheck.py --data /path/to/instagram_export --verbose
+
+Results
+-------
+People you follow who don't follow you back: 47
+People who follow you that you don't follow back: 12
+
+Written to:
+  ./not_following_back.txt
+  ./you_dont_follow_back.txt
+
+Top 10 preview — not following you back:
+  @celebrity_account
+  @old_friend
+  @random_person
+  @brand_account
+  @influencer
+  @someone_from_2020
+  @another_account
+  @forgot_who_this_is
+  @maybe_a_meme_page
+  @could_be_anyone
+
+  ... and 37 more
+
+Top 10 preview — you don't follow back:
+  @new_follower_1
+  @new_follower_2
+  @spam_account
+  @someone_from_class
+  @mutual_friend
+  @rando
+  @maybe_bot
+  @who_knows
+  @another_follower
+  @last_one
+
+  ... and 2 more
+
+---
+
+Example contents of not_following_back.txt (one username per line):
+
+celebrity_account
+old_friend
+random_person
+brand_account
+...
+
+Example contents of you_dont_follow_back.txt:
+
+new_follower_1
+new_follower_2
+spam_account
+...
