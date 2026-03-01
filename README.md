@@ -1,6 +1,6 @@
 # insta-follow-check
 
-made this bc my friend got hacked. oops! she downloaded one of those "who doesn't follow you back" apps and gave it her password. 🤦‍♀️
+made this bc my friend got hacked. oops! she downloaded one of those "who doesn't follow you back" apps and gave it her password.
 
 instead of trusting random third-party tools with your login, this script runs **locally** on your own data. you download your info straight from instagram, unzip it, and point this script at it. no logins, no API, no network — ever.
 
